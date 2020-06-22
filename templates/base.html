@@ -13,15 +13,51 @@
 
 </head>
 <body>
-    <h2>testing code system</h2>
+    {#  navigation bar  #}
+    <nav>
+        <div class="nav-wrapper">
+            {# / for homepage #}
+            <a href="/" class="brand-logo">Code system</a>
+            {# if on phone, move it to right #}
+            <ul id="nav-mobile" class="right">
+                <li><a href="/">Home</a></li>
+            </ul>
+        </div>
+    </nav>
 
+    <div class="container">
+        <h1 style="text-align: center">Search what?</h1>
+        <div class="row">
+            {# content 1 #}
+            <div class="col s4">
+                <div class="center">
+                    <i class="material-icons large" style="color: orange">access_alarm</i>
+                    <p>book am appointment</p>
+                    <p class="light center">meeting time</p>
+                </div>
+            </div>
+            {# content 2 #}
+            <div class="col s4">
+                <div class="center">
+                    <i class="large material-icons" style="color: #bdbdbd">ac_unit</i>
+                    <p>whether</p>
+                    <p class="light center">time</p>
+                </div>
+            </div>
+            {# content 3 #}
+            <div class="col s4">
+                <div class="center">
+                    <i class="large material-icons" style="color: #0f9d58">adb</i>
+                    <p>Android</p>
+                    <p class="light center">author</p>
+                </div>
+            </div>
 
+        </div>
+    </div>
 
-
-
-
-
-
+    {% block content %}
+    {% endblock content %}
 
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="{% static 'js/materialize.js' %}"></script>
