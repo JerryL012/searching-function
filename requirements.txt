@@ -1,0 +1,25 @@
+altgraph==0.16.1
+asgiref==3.2.3
+beautifulsoup4==4.9.1
+brotlipy==0.7.0
+certifi==2020.6.20
+cffi==1.14.0
+chardet==3.0.4
+cryptography==2.9.2
+Django==3.0.7
+django-tinymce4-lite==1.7.5
+EasyTkinter==1.1.0
+idna==2.9
+jsmin==2.2.2
+macholib==1.11
+pycparser==2.20
+PyInstaller==3.5
+pyOpenSSL==19.1.0
+PySocks==1.7.1
+pytz==2020.1
+requests @ file:///tmp/build/80754af9/requests_1592841827918/work
+simplegui2pygamemodule==1.0.3
+six==1.15.0
+soupsieve==2.0.1
+sqlparse==0.3.0
+urllib3==1.25.9
