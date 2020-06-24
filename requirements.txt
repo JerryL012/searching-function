@@ -13,7 +13,7 @@ idna==2.9
 jsmin==2.2.2
 macholib==1.11
 pycparser==2.20
-PyInstaller==3.5
+PyInstaller==3.6
 pyOpenSSL==19.1.0
 PySocks==1.7.1
 pytz==2020.1
